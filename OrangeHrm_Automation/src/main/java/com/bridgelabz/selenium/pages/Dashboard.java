@@ -1,4 +1,4 @@
-package com.bridgelabz.com.pages;
+package com.bridgelabz.selenium.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

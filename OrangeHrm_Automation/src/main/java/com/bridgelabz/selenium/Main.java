@@ -1,4 +1,4 @@
-package com.bridgelabz.com;
+package com.bridgelabz.selenium;
 
 public class Main {
     public static void main(String[] args) {

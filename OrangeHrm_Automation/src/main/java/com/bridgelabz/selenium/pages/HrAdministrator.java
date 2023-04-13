@@ -1,4 +1,4 @@
-package com.bridgelabz.com.pages;
+package com.bridgelabz.selenium.pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
