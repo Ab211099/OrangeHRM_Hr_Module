@@ -28,7 +28,7 @@ public class Baseclass {
             WebDriverManager.edgedriver().setup();
             driver.manage().window().maximize();
             driver.get("https://www.linkedin.com/signup");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+//            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         }
     }
 

@@ -1,4 +1,5 @@
 import com.bridgelabz.selenium.baseclass.Baseclass;
+//import com.bridgelabz.selenium.pages.AddNewUser;
 import com.bridgelabz.selenium.pages.Dashboard;
 import com.bridgelabz.selenium.pages.HrAdministrator;
 import com.bridgelabz.selenium.pages.LoginPage;
@@ -11,6 +12,7 @@ public class OrangeHrmTest extends Baseclass {
     LoginPage loginPage;
     Dashboard dashboard;
     HrAdministrator hrAdministrator;
+//    AddNewUser addNewUser;
 
     static Logger log = Logger.getLogger(OrangeHrmTest.class.getName());
     @BeforeMethod
@@ -19,6 +21,8 @@ public class OrangeHrmTest extends Baseclass {
         loginPage = new LoginPage(driver);
         dashboard = new Dashboard(driver);
         hrAdministrator = new HrAdministrator(driver);
+//        addNewUser = new AddNewUser(driver);
+
     }
 
     @Test(priority = 0)
@@ -43,11 +47,11 @@ public class OrangeHrmTest extends Baseclass {
     }
 
     @Test(priority = 3)
-    public void addEmployee(){
+    public void clickOnHrAdminMenuBtn() throws InterruptedException {
         loginSuccess();
-        hrAdministrator.clickOnAddButton();
-        hrAdministrator.addNewUser();
+        hrAdministrator.clickHrAdminMenuBtn();
     }
+
     @AfterMethod
     public void browserClose(){
         tearDown();
