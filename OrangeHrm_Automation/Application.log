@@ -1,5 +1,5 @@
-11:57:08,206  INFO com.bridgelabz.selenium.baseclass.Baseclass<strong>{1}</strong>:24 - Chrome browser launched successfully!!!
-11:57:08,522  INFO com.bridgelabz.selenium.pages.LoginPage<strong>{1}</strong>:29 - Username entered successfully!!!
-11:57:08,621  INFO com.bridgelabz.selenium.pages.LoginPage<strong>{1}</strong>:33 - User Password entered successfully!!!
-11:57:14,570  INFO com.bridgelabz.selenium.pages.LoginPage<strong>{1}</strong>:39 - User logged in successfully!!!
-11:57:14,571  INFO OrangeHrmTest<strong>{1}</strong>:39 - User logged in successfully!!!
+13:20:57,052  INFO com.bridgelabz.selenium.baseclass.Baseclass<strong>{1}</strong>:24 - Chrome browser launched successfully!!!
+13:20:57,323  INFO com.bridgelabz.selenium.pages.LoginPage<strong>{1}</strong>:32 - Username entered successfully!!!
+13:20:57,411  INFO com.bridgelabz.selenium.pages.LoginPage<strong>{1}</strong>:36 - User Password entered successfully!!!
+13:21:03,692  INFO com.bridgelabz.selenium.pages.LoginPage<strong>{1}</strong>:42 - User logged in successfully!!!
+13:21:03,702  INFO OrangeHrmTest<strong>{1}</strong>:51 - User logged in successfully!!!

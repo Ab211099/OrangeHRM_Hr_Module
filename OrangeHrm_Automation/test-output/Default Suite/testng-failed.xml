@@ -5,11 +5,8 @@
     <classes>
       <class name="OrangeHrmTest">
         <methods>
-          <include name="loginSuccess"/>
-          <include name="addEmployee"/>
-          <include name="DashboardValidation"/>
+          <include name="deleteNewUser_Success"/>
           <include name="setup"/>
-          <include name="browserClose"/>
         </methods>
       </class> <!-- OrangeHrmTest -->
     </classes>

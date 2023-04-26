@@ -1,1 +1,0 @@
-{"uuid":"a086d4df-ba47-426f-af2d-b0b47b54273b","name":"OrangeHrmTest.setup","children":["a4c5bdeb-94ed-4ab5-93c3-c0c6623b10b8"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1681885279979,"stop":1681885287261}],"afters":[],"start":1681885279977,"stop":1681885287262}
